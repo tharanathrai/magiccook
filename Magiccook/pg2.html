@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>
+			Register New User
+		</title>
+		<link rel="stylesheet" href="style1.css">
+	</head>
+	
+	<body>
+	
+		<form class="box" method="post" action="pg2_IP.php">
+		<!--<form method="post" action="pg2_IP.php">-->
+			Enter Name : <input type="text" name="var_Username" size=30 placeholder="User_name" />
+			
+			Choose Lifestyle : <br>		
+			<!--Following are some of the Lifestyles you can choose from (only one can be selected) : -->
+			<input type="radio" name="LS" value="construction_worker" checked="checked"> construction_worker <br />
+			<input type="radio" name="LS" value="home_maker"> home_maker <br />
+			<input type="radio" name="LS" value="hospitality"> hospitality <br />
+			<input type="radio" name="LS" value="personal_trainer"> personal_trainer <br />
+			<input type="radio" name="LS" value="security_guard"> security_guard <br />
+			<input type="radio" name="LS" value="student"> student <br />
+			<input type="radio" name="LS" value="sumo_wrestler"> sumo_wrestler <br />
+			<input type="radio" name="LS" value="teacher"> teacher <br />
+			<input type="radio" name="LS" value="tv_anchor"> tv_anchor <br />
+			<input type="radio" name="LS" value="yoga_instructor"> yoga_instructor <br /> <br />
+			
+
+			Tick the Diseases you have : <br />
+			<input type="checkbox" name="Diseases[]" value="Alzheimer's" /> <label> Alzheimer's </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Anemia" /> <label> Anemia </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Celiac_disease" /> <label> Celiac_disease </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Cholestrol" /> <label> Cholestrol </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Chronic_liver_disease" /> <label> Chronic_liver_disease </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Diabetes" /> <label> Diabetes </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Hypertension" /> <label> Hypertension </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Hypotension" /> <label> Hypotension </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Insomnia" /> <label> Insomnia </label> <br />
+			<input type="checkbox" name="Diseases[]" value="Obesity" /> <label> Obesity </label><br /> <br />
+			
+			
+			Enter Password: <input type="password" name="var_password" />
+			
+			<button type="submit" name="submit_details"> 
+				Submit Details
+			</button>
+		
+		</form>
+	  
+	</body>
+	
+</html>
